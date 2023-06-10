@@ -62,7 +62,7 @@ def extract_terms(documents, term_extract_str, llm_name, model_temperature, api_
 llm_name = "text-davinci-003"
 model_temperature = 0.5
 api_key = os.getenv("OPENAI_API_KEY")  # Replace with your actual OpenAI API key
-query_text = "what is the New york city?"
+query_text = "I gone to combined statistical area in the new york for COVID-19 pandemic."
 term_extract_str = DEFAULT_TERM_STR
 
 # Assuming `document_text` is a string that contains the text you want to process.
